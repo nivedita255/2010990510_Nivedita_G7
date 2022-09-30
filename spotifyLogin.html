@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <title> Extra practice of spotify Login.....</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="digitalClock.html">
+        <style>
+            body
+            {
+                background-image: url(../images/spo.jfif);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                
+            }
+            .outerDiv
+            {
+                width:350px;
+                height:530px;
+                background-color : rgb(25, 23, 23);
+                margin:auto;
+                margin-top:50px;
+                margin-left : 250px;
+            }
+            
+            table
+            {
+                padding-top:30px;
+                padding-left:25px;
+                width:350px ;
+                height:470px;
+            }
+            tr
+            {
+               height:26px; 
+            }
+            th{
+                color: white;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                
+            }
+            input[type="email"],input[type="password"]
+            {
+                padding-left:10px;
+                width:278px;
+                height:32px;
+                background-color: rgb(77, 74, 74);
+                color:rgb(116, 112, 112);
+                margin-top:6px;
+            }
+            input[type="email"]:hover,input[type="password"]:hover
+            {
+                color:white;
+            }
+            button
+            {
+                border-radius:20px;
+                background-color: white;
+                color:black;
+                width:280px;
+                height:32px;
+                margin-top:6px;
+            }
+            a{
+                color:white;
+            }
+            #account
+            {
+                text-align:center;
+                padding-top:8px;
+                padding-right:30px;
+            }
+            #setting
+            {
+                padding-top:12px;
+                padding-right:40px;
+                color:rgb(116, 112, 112);
+                text-align: center;
+            }
+            #spotify
+            {
+                padding-right:24px;
+            }
+        </style>
+    </head>
+    <body>
+          <div class="outerDiv">
+            <center>
+                <form>
+                 <table >
+                        <tr>
+                            <th> <font size="4" id="spotify"> <i class="fa fa-spotify" aria-hidden="true"></i> Spotify </font>
+                            </th>
+                        </tr>
+                        <tr id="spotify">
+                            <th><font size="5" ><b> <h4> Log in to Continue.</h4></b> </font></th>
+                        </tr>
+                        <tr>
+                            <td> <input type="email" required placeholder="Email" id="emailSymbolAdd" > <i class="fa fa-envelope-o" aria-hidden="true" style="color:gray"> </i> </td>
+                        </tr>
+                        <tr>
+                            <td ><input type="password" required placeholder="Password" > <i class="fa fa-eye-slash" aria-hidden="true" style="color:gray"></i></td>
+                        </tr>
+                        <tr>
+                            <td > <font style="color:gray"> <u> Reset password </u></font></td>
+                        </tr>
+                        <tr>
+                            <td> <font style="color:gray"> <input type="checkbox" style="color:white">Remember me </font></td>
+                        </tr>
+                        <tr>
+                            <td> <button style="cursor:pointer"> Log in </button>  </td>
+                        </tr>
+                        <tr>
+                            <td><font style="color:rgb(116, 112, 112);">――――――――OR―――――――― </font></td>
+                        </tr>
+                        <tr>
+                            <td><button style="background-color:rgb(25, 23, 23) ; color:white; border: 1px rgb(116, 112, 112) solid "  > <a href="https://www.facebook.com/" target="_blank" style="color:white ; text-decoration:none" > <i class="fa fa-facebook-f" ></i> Continue with Facebook </a> </button></td>
+                        </tr>
+                        <tr>
+                            <td><button style="background-color:rgb(25, 23, 23); color:white; border: 1px rgb(116, 112, 112) solid"> <a href="https://www.google.com/" target="_blank" style="color:white ; text-decoration:none"></a><i class="fa fa-google" aria-hidden="true"> </i>  Continue with Google</a> </button> </td>
+                        </tr>
+                        <tr>
+                            <td><button style="background-color:rgb(25, 23, 23); color:white; border: 1px rgb(116, 112, 112) solid" > <a href="https://www.apple.com/" target="_blank" style="color:white ; text-decoration:none" ><i class="fa fa-apple" aria-hidden="true"> </i> Continue with Apple </a> </button></td>
+                        </tr>
+                        <tr>
+                            <td id="account"> <font style="color:rgb(116, 112, 112)">Don't have an account? </font>  <a href="spotifySignup.html"> Signup </a></td>
+                        </tr>
+                        <tr>
+                            <td id="setting">  Settings </td>
+                        </tr>
+                 </table>
+                 </form>
+            </center>
+          </div>
+    </body>
+</html>
